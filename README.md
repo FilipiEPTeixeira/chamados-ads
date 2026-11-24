@@ -6,6 +6,6 @@ O objetivo desse projeto é criar uma API para chamados de TI
 
 Para instalar as dependência use:
 
-'''pip install Flask'''
+'pip install Flask'
 e
-'''pip install uv'''
+'pip install uv'
