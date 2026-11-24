@@ -1,17 +1,37 @@
 # chamados-ads
 
-Filipi Emanuel Pinto Teixeira ADS UFCA
+Filipi Emanuel Pinto Teixeira - ADS UFCA
 
-O objetivo desse projeto é criar uma API para chamados de TI
+## Objetivo
 
-Para instalar as dependência, no terminal, use:
+Criar uma API para chamados de TI.
+
+## Instalação das dependências
+
+Com o uv instalado, rode no terminal:
 
 ```bash
-pip install Flask
-pip install uv
+uv sync --locked
 ```
-ou
+
+## Como executar
 
 ```bash
-pip install Flask uv
+uv run flask --app main run
+```
+
+A aplicação ficará disponível em `http://127.0.0.1:5000`.
+
+## Rota inicial
+
+Acesse `http://127.0.0.1:5000/` no navegador ou com curl:
+
+```bash
+curl http://127.0.0.1:5000/
+```
+
+Resposta esperada:
+
+```json
+{"mensagem": "API de chamados funcionando"}
 ```
